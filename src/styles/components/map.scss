@@ -123,6 +123,23 @@
   }
 }
 
+.road__interview {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-top: 1px solid var(--greyF3);
+  margin: 24px auto;
+  padding: 16px 16px 0;
+  width: 85%;
+
+  &-text {
+    font-size: 20px;
+    color: var(--purple);
+  }
+}
+
 .map__footer {
   padding: 0 16px;
 }

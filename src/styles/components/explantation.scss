@@ -5,10 +5,29 @@
   }
 
   &__text {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-size: 16px;
     font-weight: 300;
+
+    &-title {
+      margin-bottom: 16px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    &-list {
+      margin-bottom: 16px;
+      padding-left: 20px;
+      list-style-type: circle;
+    }
+
+    &-item {
+      font-size: 16px;
+      font-weight: 300;
+    }
   }
+
+
 
   &__text-btn {
     display: block;

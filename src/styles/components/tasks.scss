@@ -95,6 +95,11 @@
       width: calc(100% - 18px);
       height: 105px;
       resize: none;
+
+      &::placeholder {
+        font-weight: 300;
+        color: var(--grey82);
+      }
     }
   }
 
@@ -114,9 +119,18 @@
     }
 
     &-purple {
+      margin-bottom: 24px;
       color: var(--white);
       background-color: var(--purple);
     }
+  }
+
+  &__btn-hr {
+    display: block;
+    margin: 0 16px;
+    font-size: 18px;
+    color: var(--orange);
+    text-decoration-line: underline;
   }
 
 }
